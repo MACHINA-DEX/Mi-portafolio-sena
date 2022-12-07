@@ -1,0 +1,12 @@
+print("escriba el color que desea saber su traduccion")
+print("")
+print("estan disponibles los siguientes colores")
+print("")
+print("azul,rojo,verde,amarillo,cafe,rosa")
+print("")
+paleta={"azul":"blue","rojo":"red","verde":"green","amarillo":"yellow","cafe":"bronw","rosa":"pink"}
+a=input("Ingrese el color que desea saber :")
+print("")
+print("la traducion del color que usted eligio es:")
+print("")
+print(paleta[a])
