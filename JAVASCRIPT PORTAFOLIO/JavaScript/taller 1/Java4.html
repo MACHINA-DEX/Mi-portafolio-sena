@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nombre = prompt("Ingrese el nombre del postulante");
+        pregunta=parseInt(prompt('Ingrese el total de preguntas:',''));
+        Correcta=parseInt(prompt('Ingrese el total de preguntas correctas:',''));
+        let promedio;
+
+        promedio=(Correcta/pregunta)*100
+        
+        if (promedio>=90){
+            document.write("El empleado es de Nivel superior")
+        }
+        else if(promedio>=75 && promedio<90){
+            document.write("El empleado esta en un nivel medio")
+
+        }
+        else if(promedio>=50 && promedio<75){
+            document.write("El postulante esta en un nivel Regular")
+
+        }
+        else{
+            document.write("El postulante esta fuera de nivel")
+        }
+
+    </script>
+</body>
+</html>

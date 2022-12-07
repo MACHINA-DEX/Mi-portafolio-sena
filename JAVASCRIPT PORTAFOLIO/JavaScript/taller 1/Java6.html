@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        'use strict'
+        let salary
+        let antiquity
+        salary=parseInt(prompt('Ingrese el salario del empleado:',''));
+        antiquity=parseInt(prompt('Ingrese la antiguedad :',''));
+
+        if (salary<500 && antiquity>=10){
+            document.write("<h1> El empleado tiene derecho a un aumento del 20%</h1>")
+
+        }
+        else if (salary<500 && antiquity<10){
+            document.write("<h1> El empleado tiene derecho a un aumento del 5%</h1>")    
+        }
+        else if(salary>=500){
+            document.write("<h1> su sueldo es de :</h1>",salary)
+        }
+
+    </script>
+    
+</body>
+</html>

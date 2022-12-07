@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        'use strict'
+        let x=0;
+        let nota;
+        let notamayor=0;
+        let notamenor=0;
+
+        while (x<10) {
+            nota=parseInt(prompt("ingrese las notas"));
+
+            if (nota >=7){
+                notamayor=notamayor+1;
+            }
+            else{
+                notamenor=notamenor+1;
+            }
+           x++
+        }
+        document.write("mayores a siete son "+notamayor);
+        document.write("<br>")
+        document.write("menores a siete son "+notamenor);
+
+    </script>
+    
+</body>
+</html>

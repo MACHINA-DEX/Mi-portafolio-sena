@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let suma=0;
+        let cuenta;
+        let nombre;
+        let saldo;
+
+        do{
+            nombre=prompt("Ingrese el nombre del cliente");
+            cuenta=prompt("Ingrese el  numero de la cuenta");
+            saldo=parseInt(prompt("Ingrese el saldo"));
+            if (saldo>0){
+                suma=suma+saldo
+
+            }
+            else if (saldo=0){
+                document.write("Nulo");
+            }
+           
+
+        }while(saldo<0)
+        document.write("")
+        document.write("el salsdo de los acreadores es "+suma)
+        
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

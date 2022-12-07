@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        'use strict'
+        let manana=0;
+        let tarde=0; 
+        let noche=0;
+        let promanana=0;
+        let protarde=0;
+        let pronoche=0;
+        let i=0
+
+        for(i=0; i <=4; i++){
+            let em= parseInt(prompt("Ingrese la del "+(i+1)+"# estduante de la mañana"));
+            mañana=manana+em
+        }
+        for(i=0; i <=5; i++){
+            let et= parseInt(prompt("Ingrese la del "+(i+1)+"# estduante de la tarde"));
+            tarde=tarde+et
+        }
+        for(i=0; i <=10; i++){
+            let en= parseInt(prompt("Ingrese la del "+(i+1)+"# estduante de la noche"));
+            noche=noche+en
+        }
+        promanana=(manana/5)
+        protarde=(tarde/6)
+        pronoche=(noche/11)
+
+        document.write("<h3>Elpromedio de edades de los estudiantes de mañana es de:</h3>"+promanana+" <br>");
+        document.write("<h3>Elpromedio de edades de los estudiantes de tarde es de:</h3>"+protarde+" <br>");
+        document.write("<h3>Elpromedio de edades de los estudiantes de noche es de:</h3>"+pronoche+" <br>");
+    </script>
+    
+</body>
+</html>
