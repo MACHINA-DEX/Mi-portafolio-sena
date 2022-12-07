@@ -1,0 +1,66 @@
+div.contenedor{
+    margin-left:auto;
+    margin-right:auto;
+    width:85%;
+}
+header,nav,section,article,footer,aside{
+    border-radius: 10px;
+    padding: 15px;
+    border: solid 2px black;
+    margin-top: 10px;
+}
+header{
+    height: 60px;
+    width: 100%;
+    float:center;
+    background-color: gray;
+    overflow: hidden;
+}
+nav{
+    width: 100%;
+    float:center;
+    background-color: gray;
+    margin-left: 1px;
+}
+section{
+    height:500px;
+    width: 75%;
+    float:left;
+    background-color: gray;
+    overflow: hidden;
+    
+}
+
+footer{
+    height:40px;
+    width:100%;
+    float: left;
+    background-color: gray;
+    overflow:hidden;
+}
+header,footer,article{
+    margin-bottom:10px;
+}
+article{
+    width:90%;
+    float:center;
+    background-color:white;
+    overflow: hidden;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 12px;
+}
+aside{
+    height:500px;
+    width:20%;
+    float:right;
+    background-color: gray;
+    overflow:hidden;
+    border-radius: 12px;
+    
+
+}
+
+h1{
+    text-align:center;
+}

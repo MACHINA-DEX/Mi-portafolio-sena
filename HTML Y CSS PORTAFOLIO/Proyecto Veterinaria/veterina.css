@@ -1,0 +1,717 @@
+
+body{
+    background-image: url(fondo_clinica.jpg);
+}
+
+ul{
+    list-style-type: none;
+}
+
+header img{
+    width: 100%;
+    border-radius: 3px solid black;
+    border-radius: 20px;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+input{
+    border-radius: 5px;
+    border: outset 3px rgb(155, 238, 130);
+}
+nav{
+    float:left;
+    height: auto;
+    width:100%;
+    margin-top: 10px;
+    border-radius:10px;
+    background-color: rgba(42, 207, 185, 0.637);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: outset 5px rgb(155, 238, 130);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section{
+    float:left;
+    height:200px;
+    width: 73%;
+    margin-top: 15px;
+    border-radius:10px;
+    background-color: rgba(42, 207, 185, 0.637);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: outset 5px rgb(155, 238, 130);
+    margin-top: 15px;
+}
+
+.informacion{
+    width: 80%;
+}
+
+
+aside{
+    float:right;
+    height:275px;
+    width:25%;
+    margin-top: 10px;
+    border-radius:10px;
+    background-color: rgba(185, 230, 62, 0.877);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: outset 5px rgb(155, 238, 130);
+}
+footer{
+    height:290px;
+    width:100%;
+    float:left;
+    background-color: rgba(153, 131, 7, 0.788);
+    overflow:hidden;
+    border: outset 5px rgb(155, 238, 130);
+    border-radius:10px;
+    text-align:center;
+    margin-top:15px;
+}
+
+nav li{
+  display: inline-block;
+  font-size: 8px;
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+  margin: 2px;
+}
+a{
+    border-radius: 10px;
+    border: outset 5px rgb(155, 238, 130);
+    background-color: rgba(185, 230, 62, 0.877);
+    width: 1px;
+    height: 1px;
+    text-decoration: none;
+    color: black;
+    font-size:20px;
+    font-style: inherit;
+}
+li a{
+    padding: 5px 65px;
+}
+p{
+    font-size: medium;
+}
+
+table{
+    border:  2px solid black;
+    border-radius: 10px;
+    float: center;
+    height:290px;
+    width:100%;
+    background-color: rgba(185, 230, 62, 0.877);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+.guarderia{
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    height:410px;
+    width:100%;
+    background-color: rgba(185, 230, 62, 0.877);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.servicios{
+    border: outset black;
+    border-radius: 10px;
+    height: 350px;
+    width:100%;
+    background-color: rgba(185, 230, 62, 0.877);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-size-adjust: 10px;
+    list-style-type:none;
+    display: inline-block ;
+}
+
+button{
+    margin-top: 30px;
+    border: none;
+}
+
+a{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 889px){
+
+    .table th h2{
+        font-size: 0;
+    }
+    .table {
+        border: 0px;
+        text-align: center;
+    }
+    .table caption {
+        font-size: 22px;
+        text-align: center;
+    }
+    .table thead {
+        display: none;
+    }
+    .table tr {
+        margin-bottom: 8px;
+        border-bottom: 4px solid #ddd;
+        display: block;
+        text-align: center;
+    }
+    .table th, .table td {
+        font-size: 12px;
+        text-align: center;
+    }
+    .table td {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+    }
+    .table  td:last-child {
+        border-bottom: 0px;
+    }
+    .table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+    }
+
+
+    header img{
+        width: 100%;
+    }
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        min-height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    li a{
+        padding: 5px 550px;
+        width: 110%;
+    }
+
+    nav{
+        display: inline-block;
+        width: 110%;
+        margin-left: 0px;
+        padding: 10px;
+    }
+
+    ul li{
+        width: 100%;
+        margin-right: 130%;
+        margin-left: -10%;
+    }
+
+    section article{
+        width: 100%;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+    }
+
+    section{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+
+    footer{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 889px){
+
+    .table th h2{
+        font-size: 0;
+    }
+    .table {
+        border: 0px;
+        text-align: center;
+    }
+    .table caption {
+        font-size: 22px;
+        text-align: center;
+    }
+    .table thead {
+        display: none;
+    }
+    .table tr {
+        margin-bottom: 8px;
+        border-bottom: 4px solid #ddd;
+        display: block;
+        text-align: center;
+    }
+    .table th, .table td {
+        font-size: 12px;
+        text-align: center;
+    }
+    .table td {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+    }
+    .table  td:last-child {
+        border-bottom: 0px;
+    }
+    .table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+    }
+
+
+    header img{
+        width: 100%;
+    }
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        min-height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    li a{
+        padding: 5px 550px;
+        width: 110%;
+    }
+
+    nav{
+        display: inline-block;
+        width: 110%;
+        margin-left: 0px;
+        padding: 10px;
+    }
+
+    ul li{
+        width: 100%;
+        margin-right: 130%;
+        margin-left: -30%;
+    }
+
+    section article{
+        width: 100%;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+    }
+
+    section{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+
+    footer{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 591px){
+
+    .table {
+        border: 0px;
+        text-align: center;
+    }
+    .table caption {
+        font-size: 22px;
+        text-align: center;
+    }
+    .table thead {
+        display: none;
+    }
+    .table tr {
+        margin-bottom: 8px;
+        border-bottom: 4px solid #ddd;
+        display: block;
+        text-align: center;
+    }
+    .table th, .table td {
+        font-size: 12px;
+        text-align: center;
+    }
+    .table td {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+    }
+    .table  td:last-child {
+        border-bottom: 0px;
+    }
+    .table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+    }
+
+    header img{
+        width: 100%;
+        border-radius: 0;
+    }
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        min-height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .letra{
+        font-size: 0;
+    }
+
+    li a{
+        padding: 5px 250px;
+        width: 110%;
+    }
+
+    nav{
+        display: inline-block;
+        width: 110%;
+        margin-left: 0px;
+        padding: 10px;
+    }
+
+    ul li{
+        width: 150%;
+        margin-right: 170%;
+    }
+
+    section article{
+        width: 100%;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+    }
+
+    section{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+
+    footer{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    
+}
+
+
+@media screen and (max-width: 500px){
+
+    .table {
+        border: 0px;
+        text-align: center;
+    }
+    .table caption {
+        font-size: 22px;
+        text-align: center;
+    }
+    .table thead {
+        display: none;
+    }
+    .table tr {
+        margin-bottom: 8px;
+        border-bottom: 4px solid #ddd;
+        display: block;
+        text-align: center;
+    }
+    .table th, .table td {
+        font-size: 12px;
+        text-align: center;
+    }
+    .table td {
+        display: block;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+    }
+    .table  td:last-child {
+        border-bottom: 0px;
+    }
+    .table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+    }
+
+    header img{
+        width: 100%;
+        border-radius: 0;
+    }
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        min-height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .letra{
+        font-size: 0;
+    }
+
+    li a{
+        padding: 5px 250px;
+        width: 110%;
+    }
+
+    nav{
+        display: inline-block;
+        width: 110%;
+        margin-left: 0px;
+        padding: 10px;
+    }
+
+    ul li{
+        width: 100%;
+        margin-right: 130%;
+        margin-left: -20%;
+    }
+
+    section article{
+        width: 100%;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+    }
+
+    section{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+
+    footer{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    
+}
+
+
+@media screen and (max-width: 375px){
+
+
+    header img{
+        width: 100%;
+        border-radius: 0;
+    }
+
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        min-height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .letra{
+        font-size: 0;
+    }
+
+    li a{
+        padding: 5px 250px;
+        width: 110%;
+    }
+
+    nav{
+        display: inline-block;
+        width: 110%;
+        margin-left: 0px;
+        padding: 10px;
+    }
+
+    ul li{
+        width: 100%;
+        margin-right: 130%;
+        margin-left: -40%;
+    }
+
+    section article{
+        width: 100%;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+    }
+
+    section{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+
+    footer{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+
+
+
+/* 
+@media screen and (max-width: 918px) {
+
+    header{
+        width: 120%;
+    }
+
+    .container{
+        width: 120%;
+        padding: 0 1%;
+    }
+
+    nav{
+        display: inline-block;
+        width: 120%;
+        margin-left: 0px;
+    }
+
+    ul li{
+        width: 120%;
+    }
+
+    .contenido{
+        width: 120%;
+    }
+
+    aside{
+        width:100%;
+        height:100;
+    }
+
+    section{
+        width: 120%;
+        height: 110%;
+    }
+
+
+    section article{
+        width: 120%;
+        margin: 0;
+        margin-top: 20px;
+        padding: 10px 30px;
+        height: 100%;
+    }
+
+    .info{
+        width: 120%;
+    }
+
+    button{
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    footer{
+        height: 15%;
+        width: 120%;
+        padding: 30px 0;
+        margin-top: 10px;
+        color: rgb(0, 45, 40);
+    }
+
+    section article img{
+        margin: 0;
+
+    }
+
+    #image{
+        margin-right: 100%;
+    }
+}
+ */

@@ -1,0 +1,33 @@
+nav{
+    width: 50%;
+    height: 125px;
+    float:center;
+    background-color: grey;
+    margin-left: 1px;
+    border-radius: 10px;
+}
+header{
+    width: 50%;
+    float:center;
+    background-color: grey;
+    margin-left: 1px;
+    border-radius: 10px;
+    text-align: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    width: 50%;
+    padding: 0;
+    list-style-type: none;
+    border-radius: 10px;
+    border: solid  black;
+}
+li{
+    border-bottom: 1px solid  black;
+    font-size: 25px;
+    text-align: center;
+    height:50px;
+   
+}
